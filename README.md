@@ -1,4 +1,4 @@
-# MAC 平台快速搭建 Express+Mongoose+TypeScript 实现 RESTful API
+# 快速搭建 Express+Mongoose+TypeScript 实现 RESTful API
 
 ## 前言
 
@@ -6,7 +6,7 @@
 
 ## 快速开始
 
-安装 MongoDB 数据库
+安装 MongoDB 数据库(MAC平台)
 
 ```bash
 brew tap mongodb/brew
