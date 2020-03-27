@@ -123,20 +123,6 @@ main()
 
 ## 其它
 
-查看 yarn 和 npm 全局包
-
-```bash
-npm list -g --depth=0
-yarn global list
-```
-
-移除 yarn 和 npm 全局包
-
-```bash
-npm uninstall -g @vue/cli
-yarn global remove @vue/cli
-```
-
 安装 yarn 和 npm 全局包
 
 ```bash
@@ -144,16 +130,30 @@ yarn global add typescript
 npm install -g typescript
 ```
 
+移除 yarn 和 npm 全局包
+
+```bash
+yarn global remove @vue/cli
+npm uninstall -g @vue/cli
+```
+
+查看 yarn 和 npm 全局包
+
+```bash
+yarn global list
+npm list -g --depth=0
+```
+
 切换 yarn 和 npm 源工具
 
 ```bash
-npm install -g nrm
-nrm use taobao
-nrm use npm
-
 yarn global add yrm
 yrm use taobao
 yrm use npm
+
+npm install -g nrm
+nrm use taobao
+nrm use npm
 ```
 
 ## 小结
