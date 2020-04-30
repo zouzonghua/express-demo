@@ -1,4 +1,4 @@
-# 快速搭建 Express+Mongoose+TypeScript 实现 RESTful API
+# 快速搭建 Express+Mongoose+TypeScript
 
 ## 前言
 
